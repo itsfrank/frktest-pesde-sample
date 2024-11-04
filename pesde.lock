@@ -4,7 +4,7 @@ target = "lune"
 
 [graph."itsfrank/frktest"."0.0.1 lune"]
 direct = ["frktest", { name = "itsfrank/frktest", version = "^0.0.1" }]
-ty = "standard"
+ty = "dev"
 
 [graph."itsfrank/frktest"."0.0.1 lune".target]
 environment = "lune"

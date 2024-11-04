@@ -10,5 +10,5 @@ environment = "lune"
 [indices]
 default = "https://github.com/daimond113/pesde-index"
 
-[dependencies]
+[dev_dependencies]
 frktest = { name = "itsfrank/frktest", version = "^0.0.1" }
