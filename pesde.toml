@@ -1,0 +1,14 @@
+name = "itsfrank/frktest_pesde_sample"
+version = "0.1.0"
+description = "sample project usinf frktest with pesde"
+authors = ["Francis O'Brien <github.com/itsfrank>"]
+license = "MIT"
+
+[target]
+environment = "lune"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
+
+[dependencies]
+frktest = { name = "itsfrank/frktest", version = "^0.0.1" }
